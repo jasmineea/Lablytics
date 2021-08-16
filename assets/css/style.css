@@ -253,7 +253,7 @@ p {
       height: 100%;
       border-style: solid;
       /* Spinner Color */
-      border-color: #f14836 #f14836 #dedede4f;
+      border-color: #201F4F #201F4F #dedede4f;
       border-radius: 50%;
       border-width: 6px; }
     .preloader .loader .ytp-spinner-left .ytp-spinner-circle {
@@ -1838,7 +1838,7 @@ p {
   height: 45px;
   line-height: 45px;
   border-radius: 50%;
-  background-color: #f14836;
+  background-color: #201F4F;
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -2199,6 +2199,28 @@ p {
 /*# sourceMappingURL=style.css.map */
 
 .text-1 {
-  font-size: 25px;
+  font-size: 17px;
   line-height: 50px;
+}
+
+.footer-logo {
+  margin-bottom: -125px;
+  margin-left: -68px;
+  margin-top: -130px;
+}
+
+.nav-logo {
+  height: 250px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .nav-logo {
+    width: 100px;
+    height: auto;
+  }
+
+  .footer-logo {
+    width: 350px;
+  }
 }
