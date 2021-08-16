@@ -2200,7 +2200,7 @@ p {
 
 .text-1 {
   font-size: 17px;
-  line-height: 50px;
+  line-height: 30px;
 }
 
 .footer-logo {
@@ -2213,6 +2213,11 @@ p {
   height: 250px;
 }
 
+.about-img {
+  width: 65%;
+  margin-left: 210px;
+}
+
 
 @media only screen and (max-width: 600px) {
   .nav-logo {
@@ -2222,5 +2227,10 @@ p {
 
   .footer-logo {
     width: 350px;
+  }
+
+  .about-img {
+    width: 100%;
+    margin-left: 0px;
   }
 }
